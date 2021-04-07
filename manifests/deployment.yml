@@ -16,4 +16,4 @@ spec:
         - name: pcarreiraspipelinesjavascriptdocker 
           image: agoracicdcontainerregistry.azurecr.io/pcarreiraspipelinesjavascriptdocker
           ports:
-          - containerPort: 5005
+          - containerPort: 8080
