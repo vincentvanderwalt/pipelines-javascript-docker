@@ -37,7 +37,7 @@ stages:
       displayName: 'Publish code coverage'
       inputs:
         codeCoverageTool: JaCoCo
-        summaryFileLocation: '**/site/jacoco/jacoco.xml'
+        summaryFileLocation: '**/jacoco.exec'
         reportDirectory: '**/site/jacoco'
         
 - stage: codeAnalysis
