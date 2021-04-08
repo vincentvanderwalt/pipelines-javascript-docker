@@ -29,15 +29,14 @@ stages:
         javaHomeOption: 'JDKVersion'
         jdkVersionOption: '1.8'
         jdkArchitectureOption: 'x64'
-        publishJUnitResults: true
+        publishJUnitResults: false
         codeCoverageToolOption: JaCoCo
-        testResultsFiles: '**/surefire-reports/TEST-*.xml'
         goals: 'jacoco:report'
     - task: PublishCodeCoverageResults@1
       displayName: 'Publish code coverage'
       inputs:
         codeCoverageTool: JaCoCo
-        summaryFileLocation: '**/jacoco.exec'
+        summaryFileLocation: 'target/jacoco.exec'
         reportDirectory: '**/site/jacoco'
         
 - stage: codeAnalysis
