@@ -1,4 +1,4 @@
-package org.aws.samples.greeting;
+package com.agora.cicdtests;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

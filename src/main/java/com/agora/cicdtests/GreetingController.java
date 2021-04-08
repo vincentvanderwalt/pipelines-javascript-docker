@@ -1,4 +1,4 @@
-package org.aws.samples.greeting;
+package com.agora.cicdtests;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
